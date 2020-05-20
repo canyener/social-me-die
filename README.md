@@ -1,3 +1,3 @@
-![.github/workflows/dotnetcore.yml](https://github.com/canyener/social-me-die/workflows/.github/workflows/dotnetcore.yml/badge.svg)
+![.NET Core](https://github.com/canyener/social-me-die/workflows/.NET%20Core/badge.svg)
 # social-me-die
 A social media experiment with .net core, react and mobx
