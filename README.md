@@ -3,6 +3,7 @@
 A social media experiment with .net core, react and mobx
 
 # build and run
+- Restore dependencies first, by `dotnet restore`
 - To build, run `dotnet build` command on terminal.
 - To run project,
   - run `dotnet run -p API/`. 
