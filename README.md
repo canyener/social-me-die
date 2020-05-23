@@ -4,7 +4,7 @@
 # social-me-die
 A social media experiment with .net core, react and mobx
 
-# build and run
+### build and run
 - Restore dependencies first, by `dotnet restore`
 - To build, run `dotnet build` command on terminal.
 - To run project,
@@ -14,7 +14,7 @@ A social media experiment with .net core, react and mobx
   - You must navigate to API directory by `cd API/` to be able to use watch mode.
   - run `dotnet watch run` in API directory.
 
-# Ef Core
+### Ef Core
 - To install globally (which I recommend), type `dotnet tool install -g dotnet-ef` on your terminal.
 - Simply run `dotnet ef` to see options and commands you can use.
 - To add migration `dotnet ef migrations add <MigrationName> -p <ProjectContainsDataContext>/ -s <StartupProject>/`
