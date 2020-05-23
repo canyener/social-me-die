@@ -17,3 +17,4 @@ A social media experiment with .net core, react and mobx
 # Ef Core
 - To install globally (which I recommend), type `dotnet tool install -g dotnet-ef` on your terminal.
 - Simply run `dotnet ef` to see options and commands you can use.
+- To add migration `dotnet ef migrations add <MigrationName> -p <ProjectContainsDataContext>/ -s <StartupProject>/`
