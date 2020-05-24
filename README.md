@@ -4,6 +4,8 @@
 # social-me-die
 A social media experiment with .net core, react and mobx
 
+You can find client app here: https://github.com/canyener/social-me-die-client
+
 ### build and run
 - Restore dependencies first, by `dotnet restore`
 - To build, run `dotnet build` command on terminal.
