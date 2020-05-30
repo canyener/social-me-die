@@ -1,5 +1,6 @@
 ![.NET Core](https://github.com/canyener/social-me-die/workflows/.NET%20Core/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/canyener/social-me-die?label=latest-release)
+![GitHub contributors](https://img.shields.io/github/contributors/canyener/social-me-die)
 ![GitHub](https://img.shields.io/github/license/canyener/social-me-die)
 # social-me-die
 A social media experiment with .net core, react and mobx
