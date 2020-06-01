@@ -5,7 +5,7 @@ using Domain;
 
 namespace Persistence
 {
-  public class Seed
+  public static class Seed
   {
     public static void SeedData(DataContext dataContext)
     {
