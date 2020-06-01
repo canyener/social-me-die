@@ -16,7 +16,7 @@ namespace DatingApp.API.Controllers
 
         public ValuesController(DataContext context)
         {
-            _context = context ?? throw new ArgumentNullException(nameof(context)); ;
+            _context = context ?? throw new ArgumentNullException(nameof(context));
         }
 
         // GET api/values
@@ -39,12 +39,14 @@ namespace DatingApp.API.Controllers
         [HttpPost]
         public void Post([FromBody] string value)
         {
+            throw new NotSupportedException();
         }
 
         // PUT api/values/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
+            throw new NotSupportedException();
         }
 
         // DELETE api/values/5
