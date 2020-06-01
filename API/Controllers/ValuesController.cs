@@ -16,7 +16,7 @@ namespace DatingApp.API.Controllers
 
         public ValuesController(DataContext context)
         {
-            _context = context ?? throw new ArgumentNullException(nameof(context)); ;
+            _context = context ?? throw new ArgumentNullException(nameof(context));
         }
 
         // GET api/values
