@@ -18,9 +18,10 @@ namespace API.Controllers
       _mediator = mediator;
     }
 
+    [HttpGet]
     public async Task<ActionResult<List<Activity>>> List()
     {
-        return await _mediator.Send(new List.Query());
+      return await _mediator.Send(new List.Query());
     }
   }
 }
