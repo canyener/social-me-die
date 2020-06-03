@@ -1,0 +1,50 @@
+{
+	"Query Handler": {
+		"prefix": "qhandler",
+		"body": [
+			"public class Query : IRequest<${1:ReturnObject}> { }",
+			"public class Handler : IRequestHandler<Query, ${1:ReturnObject}>",
+			"{",
+			"  private readonly DataContext _dataContext;",
+			"  public Handler(DataContext dataContext)",
+			"  {",
+			"    _dataContext = dataContext;",
+			"  }",
+			"  ",
+			"  public async Task<${1:ReturnObject}> Handle(Query request, CancellationToken cancellationToken)",
+			"  {",
+			"    //handler logic here..",
+			"  }",
+			"} "
+		],
+		"description": "Query Handler"
+	},
+	"Commmand Handler": {
+		"prefix": "chandler",
+		"body": [
+			"    public class Command : IRequest",
+			"    {",
+			"    }",
+			"",
+			"    public class Handler : IRequestHandler<Command>",
+			"    {",
+			"      private readonly DataContext _dataContext;",
+			"      public Handler(DataContext dataContext)",
+			"      {",
+			"        _dataContext = dataContext;",
+			"      }",
+			"",
+			"      public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)",
+			"      {",
+			"        //handler logic here...",
+			"        var success = await _dataContext.SaveChangesAsync() > 0;",
+			"",
+			"        if(success) return Unit.Value;",
+			"",
+			"        throw new Exception(\"Problem saving changes\");",
+			"      }",
+			"    }"
+		],
+		"description": "Commmand Handler"
+	}
+}
