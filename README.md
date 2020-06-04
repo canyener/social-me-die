@@ -5,9 +5,11 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/canyener/social-me-die)
 ![GitHub](https://img.shields.io/github/license/canyener/social-me-die)
 # social-me-die
-A social media experiment with .net core, react and mobx
+- API part of my social media experiment with .net core, entity framework core, react and mobx.
 
-You can find client app [here](https://github.com/canyener/social-me-die-client).
+- `.vscode/` folder is commited on purpose. Command and query handler snippets are added and they might be useful for everyone.
+
+- You can find client app [here](https://github.com/canyener/social-me-die-client).
 
 ### build and run
 - Restore dependencies first, by `dotnet restore`
