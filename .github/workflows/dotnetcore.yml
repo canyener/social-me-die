@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-
+    project: src/SocialMeDie.sln
     runs-on: ubuntu-latest
 
     steps:
