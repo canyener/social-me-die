@@ -3,7 +3,7 @@
     <ProjectReference Include="..\Domain\Domain.csproj"/>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.1"/>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.0"/>
   </ItemGroup>
   <PropertyGroup>
