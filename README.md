@@ -2,6 +2,7 @@
 [![Build status](https://dev.azure.com/cancanco/social-me-die/_apis/build/status/social-me-die-.NET%20Core%20with%20SonarCloud-CI)](https://dev.azure.com/cancanco/social-me-die/_build/latest?definitionId=1)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=canyener_social-me-die&metric=alert_status)](https://sonarcloud.io/dashboard?id=canyener_social-me-die)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/canyener/social-me-die?label=latest-release)
+![David](https://img.shields.io/david/canyener/social-me-die)
 ![GitHub contributors](https://img.shields.io/github/contributors/canyener/social-me-die)
 ![GitHub](https://img.shields.io/github/license/canyener/social-me-die)
 # social-me-die
