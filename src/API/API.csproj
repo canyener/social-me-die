@@ -3,7 +3,7 @@
     <ProjectReference Include="..\Application\Application.csproj"/>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.11"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.4"/>
   </ItemGroup>
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
